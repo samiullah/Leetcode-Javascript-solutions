@@ -4,19 +4,15 @@
  */
 var sortedSquares = function(nums) {
     
-let sq = []
 let sqp = []
 
-for(j=0;j<nums.length;j++){
-    sq.push(Math.abs(nums[j]))
-     
-}
-
-sorted = sq.sort()
 
 
-for(i=0;i<sorted.length;i++){
-    sqp.push(sq[i]*sq[i])
+
+
+
+for(i=0;i<nums.length;i++){
+    sqp.push(nums[i]*nums[i])
      
 }
 
